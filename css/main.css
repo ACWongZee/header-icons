@@ -28,6 +28,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   padding: .4rem 0;
+  align-items: center;
 }
 
 .nav {
@@ -45,11 +46,15 @@ nav li {
 }
 
 nav a {
-  display: inline-block;
+  display: block;
   text-decoration: none;
   color: #fff;
+  padding: .5rem .5em;
   border: 1px solid #a63f38;
-  padding: 0 .5em;
+}
+
+.nav a:hover {
+  background-color: #a63f38;
 }
 
 img {
